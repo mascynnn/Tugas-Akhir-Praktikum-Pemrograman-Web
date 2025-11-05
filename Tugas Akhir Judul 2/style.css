@@ -235,3 +235,18 @@ button:hover {
   background: #7353e2;
   box-shadow: 0 0 10px rgba(115,83,226,0.4);
 }
+
+/* FOOTER */
+footer {
+  background: #141421;
+  text-align: center;
+  padding: 15px 0;
+  color: #777;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  transition: background 0.3s;
+}
+
+footer:hover {
+  background: #19192b;
+}
