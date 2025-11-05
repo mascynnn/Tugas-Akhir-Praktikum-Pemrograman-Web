@@ -112,3 +112,126 @@ nav ul li a:hover {
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(162,133,255,0.5);
 }
+
+/* SECTION UMUM */
+section {
+  padding: 60px 20px;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section h2 {
+  text-align: center;
+  color: #a285ff;
+  margin-bottom: 20px;
+}
+
+/* ABOUT */
+#about p {
+  text-align: center;
+  color: #ccc;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* PROJECTS */
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project-card {
+  background: #1a1a28;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  transition: all 0.3s;
+}
+
+/* Efek hover kartu proyek */
+.project-card:hover {
+  transform: translateY(-6px);
+  background: #202033;
+  box-shadow: 0 0 15px rgba(162,133,255,0.25);
+}
+
+.project-card h3 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  color: #aaa;
+  font-size: 0.95rem;
+}
+
+/* SKILLS */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.skill {
+  background: #252539;
+  padding: 12px 25px;
+  border-radius: 25px;
+  color: #a285ff;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.skill:hover {
+  background: rgba(162, 133, 255, 0.15);
+  color: #fff;
+  box-shadow: 0 0 8px rgba(162, 133, 255, 0.3);
+}
+
+/* FORM */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  margin: auto;
+}
+
+input, textarea {
+  padding: 10px;
+  background: #1a1a28;
+  border: 1px solid #333;
+  border-radius: 8px;
+  color: #fff;
+  transition: border 0.3s, background 0.3s;
+}
+
+input:hover, textarea:hover, 
+input:focus, textarea:focus {
+  border: 1px solid #a285ff;
+  background: #202033;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button {
+  background: #a285ff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background: #7353e2;
+  box-shadow: 0 0 10px rgba(115,83,226,0.4);
+}
