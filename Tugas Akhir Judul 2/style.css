@@ -11,3 +11,53 @@ body {
   color: #f5f5f5;
   line-height: 1.6;
 }
+
+/* HEADER */
+header {
+  background: #141421;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.logo {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 26px;
+  color: #a285ff;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+h1 span {
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+nav ul li a {
+  color: #ddd;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+/* Efek hover navbar */
+nav ul li a:hover {
+  color: #fff;
+  background-color: rgba(162, 133, 255, 0.15);
+  box-shadow: 0 0 8px rgba(162, 133, 255, 0.2);
+}
