@@ -1,4 +1,3 @@
-```markdown
 # 🌐 ChainNova – Web3 Innovation Company
 
 Proyek ini merupakan **Tugas Akhir Praktikum Pemrograman Web Judul 3** dengan tema:  
@@ -71,36 +70,34 @@ Formulir sederhana untuk mengirim pesan:
 
 ## 📂 Struktur Folder
 
-```
-
-📁 ChainNova/
+```bash
+📁 Tugas Akhir Judul 3/
 │
 ├── index.html          # File utama website
 ├── /assets/            # Gambar, ikon, dan resource tambahan
 └── README.md           # Dokumentasi proyek
-
 ````
 
 ---
 
 ## 💻 Cara Menjalankan Proyek
 
-1. **Clone repository ini**  
+1. **Clone repository ini**
+
    ```bash
-   git clone https://github.com/username/chainnova-web3.git
-````
+   git clone https://github.com/mascynnn/Tugas-Akhir-Praktikum-Pemrograman-Web.git
+   ```
 
 2. **Masuk ke folder proyek**
 
    ```bash
-   cd chainnova-web3
+   cd "Tugas Akhir Praktikum Pemrograman Web/Tugas Akhir Judul 3"
    ```
 
 3. **Buka file HTML**
 
    * Klik dua kali `index.html`
-     atau
-   * Jalankan di VS Code dengan ekstensi **Live Server**
+   * atau jalankan di VS Code dengan ekstensi **Live Server**
 
 4. Website akan tampil di browser kamu 🎉
 
@@ -116,6 +113,6 @@ Semua aset gambar dan ikon digunakan hanya untuk tujuan pembelajaran.
 **Dibuat oleh:**
 👨‍💻 *Makhasin Muhammad*
 📅 *Tahun: 2025*
-🏫 *Mata Kuliah: Praktikum Pemrograman Web 2025*
+🏫 *Mata Kuliah: Praktikum Pemrograman Web*
 
 ```
